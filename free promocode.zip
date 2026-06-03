@@ -1,0 +1,29 @@
+print("Hello, world!")
+print("Exuse me, sir. im yarik ^_^")
+import time
+import sys
+
+import time
+import sys
+
+import time
+import sys
+
+import time
+import sys
+print("\rhelllo its promo code")
+
+print("Запуск загрузки...")
+total_blocks = 20
+
+import time
+
+for i in range(1, 101): # Считаем строго до 100%
+    print(f"\r[{'■'*(i//5)}{'□'*(20-i//5)}] {i}%", end="", flush=True)
+    t = 3.0 if i==20 else (2.0 if i==50 else (1.5 if i==23 else 0.05))
+    time.sleep(t)
+
+# \r стирает полосу загрузки, чтобы "новое появилось, а старое ушло"
+print("\r" + " " * 40, end="") 
+print("\r🎉 БОНУС: Промокод [PYTHON2026] на скидку 100% на любой курс!")
+
